@@ -1,95 +1,66 @@
-# ba_da_course_homeworks
-# Main README (for root of repo)
+# 📂 Data & Analytics Portfolio
 
-## Overview
-
-This repository contains several key directories related to data analysis, reporting, and visualization. Each folder includes its own README with details about the contents and their intended usage.
-
-## Directory Structure
-
-* **excel/** – Contains Excel workbooks used for analysis, reporting, and data preparation.
-* **queries/** – Stores SQL queries used for data extraction and transformations.
-* **tableau/** – Includes Tableau workbooks, dashboards, and related assets.
-* **looker_studio/** – Contains Looker Studio dashboard resources, exports, and documentation.
-
-## Purpose
-
-This repo centralizes analytical assets to ensure consistency, collaboration, and version control across projects.
+Welcome to my Data & Analytics portfolio!  
+This repository contains projects, exercises, dashboards, and learning materials across multiple analytics tools and programming environments.  
+Each folder has its own dedicated `README.md` describing its contents in detail.
 
 ---
 
-# excel/README.md
+## 📁 Repository Structure
 
-## Excel Folder
-
-This folder contains all Excel-based data, including datasets, reports, calculations, and intermediate processing files.
-
-### Typical Contents
-
-* Raw and cleaned datasets
-* KPI or metrics reports
-* Pivot table models
-* Data dictionary files
-
-### Notes
-
-* Large Excel files should be tracked with Git LFS.
-* Use clear filenames with dates or version numbers.
+### **1. Excel/**
+Contains an Excel-based schema/model for a **warehouse database**.  
+It includes entity tables, relationships, and structured layouts representing how data is organized in a warehouse environment.
 
 ---
 
-# queries/README.md
-
-## Queries Folder
-
-This folder contains SQL queries used for reporting, dashboards, or data transformations.
-
-### Typical Contents
-
-* BigQuery SQL files
-* Snowflake, Redshift, or PostgreSQL scripts
-* ETL transformation queries
-
-### Conventions
-
-* Use descriptive filenames (e.g., `sales_summary.sql`, `customer_churn_query.sql`).
-* Include comments inside SQL files explaining purpose and assumptions.
+### **2. Looker Studio/**
+Contains a **dashboard built on the Classic Models database**, visualizing business performance metrics with Google Looker Studio.
 
 ---
 
-# tableau/README.md
-
-## Tableau Folder
-
-This folder contains all Tableau-related assets.
-
-### Typical Contents
-
-* Tableau Workbooks (`.twb`, `.twbx`)
-* Data extracts (`.hyper`)
-* Exported images or PDFs of dashboards
-
-### Notes
-
-* Avoid committing very large extract files unless necessary.
-* Document data sources inside a README or within Tableau workbook notes.
+### **3. Python/**
+A collection of Python homework files, code exercises, and small utility programs, including:
+- **BMI Calculator**  
+- **Rectangle Area Calculator**  
+- **Savings Calculator** (takes income & expenses → evaluates savings health)
 
 ---
 
-# looker_studio/README.md
+### **4. SQL/**
+Contains a file of **SQL queries** written for practice and data exploration purposes.  
+Queries include selects, joins, aggregations, and other SQL fundamentals.
 
-## Looker Studio Folder
+---
 
-This folder includes assets and documentation related to Looker Studio dashboards.
+### **5. Tableau/**
+Includes a complete **Tableau dashboard** built on the **Microsoft Northwind** dataset.  
+The dashboard focuses on sales insights, product performance, and regional analysis.
 
-### Typical Contents
+---
 
-* Data source schemas
-* Dashboard metadata
-* Exported PDFs or images
-* URL references (avoid storing sensitive links)
+## 🚀 Purpose of This Repository
 
-### Guidelines
+This repo demonstrates my skills in:
 
-* Document metric definitions.
-* Include dates for dashboard updates.
+- Data modeling  
+- Dashboard design & analytics  
+- SQL querying  
+- Python scripting  
+- Visualization tools (Looker Studio, Tableau)  
+- Working with real datasets + classic databases (Northwind, Classic Models)
+
+It also serves as a clean portfolio for showcasing work to employers and collaborators.
+
+---
+
+## 📬 Contact
+
+If you'd like to connect, discuss dashboards, or collaborate:
+
+**Email:** _your-email-here_  
+**LinkedIn:** _your-link-here_
+
+---
+
+Thank you for visiting!
